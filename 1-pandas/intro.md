@@ -1,24 +1,23 @@
-# New Scenario Template (Your Title Here)
+# Fundamentals
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+
+By the end of this module, the learner will be able to use pandas to prepare data so they can put it into a machine learning model. This includes - taking a raw data file, removing or calculating missing values, and converting string data into numeric data.
 
 ## Description
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
+In this module you will install the libraries for pandas and scikit-learn.
 
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+Then you will load some data and clean it with pandas so you can do machine learning on it.
 
 ## Learning Objective
 
-- 3-4 bullets
-- of what you
-- will learn
+- Install libraries
+- Load data with pandas
+- Clean data with pandas
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
-
-This is for software developers with prior experience using Jenkins to deploy web applications.
+This is for software developers and others with prior experience using Python.
 
 ## Table of Contents
 

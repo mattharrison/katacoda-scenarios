@@ -1,8 +1,8 @@
-# Heading for Step 1
+# Install Libraries
 
-This is some text.
+We are going to use ``virtualenv`` and ``pip`` to install our libraries.
 
-Here's a single line of runnable code:
+Run the following:
 
 `printf 'Hello, world!\n\n'`{{execute}}
 
