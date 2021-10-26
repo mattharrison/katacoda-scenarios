@@ -1,12 +1,12 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
-  "difficulty": "Beginner",
-  "time": "3 minutes",
+  "title": "Supervised Machine Learning Fundamentals Scenario",
+  "description": "A scenario for performing machine learning.",
+  "difficulty": "Intermediate",
+  "time": "40 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Install Libraries",
         "text": "step1.md"
       },
       {
