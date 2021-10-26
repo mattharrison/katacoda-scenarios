@@ -1,6 +1,7 @@
-# Heading for Step 2
+# Load and process data
 
-This is some text.
+In this section, you will load the data and prepare it for machine learning.
+
 
 Here's a single line of runnable code:
 
