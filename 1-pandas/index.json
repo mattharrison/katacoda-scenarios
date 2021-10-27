@@ -10,14 +10,16 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Load data",
+          "text": "step2.md",
+          "code": "loaddata.sh"
       },
       {
         "title": "Step 3",
         "text": "step3.md"
       }
     ],
+      "assets": {"client": [{"file": "*", "target":"~/"}]}
     "intro": {
       "text": "intro.md",
       "code": "foreground.sh"
