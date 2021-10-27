@@ -19,7 +19,7 @@
         "text": "step3.md"
       }
     ],
-      "assets": {"client": [{"file": "*", "target":"~/"}]},
+    "assets": {"client": [{"file": "*", "target":"~/"}]},
     "intro": {
       "text": "intro.md",
       "code": "foreground.sh"

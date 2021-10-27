@@ -13,4 +13,4 @@ Create and activate the virtual environment:
 
 Finally install the libraries:
 
-`pip install pandas scikit-learn`{{execute}}
+`pip install pandas scikit-learn pytest`{{execute}}
