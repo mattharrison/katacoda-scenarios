@@ -1,10 +1,10 @@
 # Load and process data
 
-In this section, you will load the data and prepare it for machine learning.
+In this section, you will load the data (a CSV file in `ames-housing-dataset.zip`) and prepare it for machine learning.
 
 Open the file ``predict.py`` in the editor.
 
-Create a function to load the data from the 
+Create a function, ``get_data``, to load the data from the 
 Here's a single line of runnable code:
 
 `python3 -m pytest -k load`{{execute}}
@@ -39,3 +39,19 @@ You task is to create a function, `tweak_ames_classification`, that keeps the ab
 Put this function in `predict.py`. Once you have finished writing the function, run this command from the terminal to test it:
 
 `python3 -m pytest -k tweak_clf`{{execute}}
+
+Your next task is integrate the `tweak_ames_classification` function into a scikit-learn transformer. Create a class, `AmesClassificationTransformer` that calls `tweak_ames_classification` in the  `.transform` method.
+
+`python3 -m pytest -k clf_transformer`{{execute}}
+
+(hint: subclass both `sklearn.base.BaseEstimator` and `sklearn.base.TransformerMixin`. Implement a `.transform` method that calls `tweak_ames_classification`. Make a `.fit` method the returns `self`.)
+
+## Pipeline
+
+Now you need to make a pipeline for your classifier. It will have a few steps.
+
+#. Call the ``AmesClassificationTransformer``
+#. Call a `ColumnTransformer` that uses `sklearn.preprocessing.OneHotEncoder` on the categorical columns and `sklearn.preprocessing.StandardScalar` on the numeric columns.
+#. Adds in a classifier on the end.
+
+Make a function called `get_clf_pipeline` that returns the pipeline.
