@@ -1,0 +1,41 @@
+{
+    "type": "challenge@0.8",
+    "title": "Classification Challenge",
+    "description": "Machine learning classification challenge",
+    "difficulty": "Intermediate",
+    "time": "25 minutes",
+    "details": {
+        "steps": [
+            {
+            "title": "Task 1: Create Classifier",
+            "text": "1_task.md",
+            "verify": "1_verify.sh",
+            "hint": "1_hint.sh"
+        },
+            {
+            "title": "Task 2: Apples",
+            "text": "2_task.md",
+            "verify": "2_verify.sh",
+            "hint": "2_hint.sh"
+        }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "client": [
+                { "file": "*", "target": "~/" }
+            ]
+        }
+    },
+    "environment": {
+        "uilayout": "editor-terminal",
+        "hideHiddenFiles": true
+    },
+    "backend": {
+        "imageid": "ubuntu:2004"
+    }
+}
