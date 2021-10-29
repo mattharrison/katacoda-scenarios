@@ -17,7 +17,7 @@
             {
             "title": "Load Data",
             "text": "2_task.md",
-            "verify": "2_verify.sh",
+            "verify": "2_verify.sh"
         }
         ],
         "intro": {
