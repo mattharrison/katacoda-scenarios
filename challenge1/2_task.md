@@ -31,5 +31,20 @@ All of your work will be done in the `predict.py` file.
 
 * Create a function, `tweak_ames_classification`, that keeps the above columns. It should also fill in any missing values of numeric columns with 0 (we could do this will scikit-learn or pandas to do this, we will use pandas this time). Finally, it should replace missing values in the *Electrical* column with `'SBrkr'` (Standard Circuit Breakers & Romex).
 
+## Transformer
+
+Your next task is integrate the `tweak_ames_classification` function into a scikit-learn transformer. Create a class, `AmesClassificationTransformer` that calls `tweak_ames_classification` in the  `.transform` method.
+
+## Pipeline
+
+Now you need to make a pipeline for your classifier. It will have a few steps.
+
+#. Call the ``AmesClassificationTransformer``
+#. Call a `ColumnTransformer` that uses `sklearn.preprocessing.OneHotEncoder` on the categorical columns and `sklearn.preprocessing.StandardScalar` on the numeric columns.
+#. Adds in a classifier on the end.
+
+Make a function called `get_clf_pipeline` that returns the pipeline.
+
+
 
 
