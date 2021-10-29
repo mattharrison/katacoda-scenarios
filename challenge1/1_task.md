@@ -1,14 +1,13 @@
 ## Environment
 
-* Create a virtual environment
+* Create a virtual environment in the ``env`` directory.
 * Install 
 
   * scikit-learn
   * pandas
   * pytest
-  
-## Load data
 
-All of your work will be done in the `predict.py` file.
+`apt install python3.8-venv;python3 -m venv env;env/bin/pip install pandas scikit-learn pytest`{{execute}}
+`
 
-Create a function, `get_data`, that reads the CSV file from `ames-housing-dataset.zip` and returns a pandas data frame.
+

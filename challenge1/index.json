@@ -13,6 +13,11 @@
             "hint": "1_hint.sh",
             "courseData": "1_background.sh",
             "code": "1_foreground.sh"
+        },
+            {
+            "title": "Load Data",
+            "text": "2_task.md",
+            "verify": "2_verify.sh",
         }
         ],
         "intro": {
