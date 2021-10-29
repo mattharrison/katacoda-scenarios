@@ -1,10 +1,10 @@
 ## Pipeline
 
-Now you need to make a pipeline for your classifier. It will have a few steps.
+Now you need to make a pipeline for your classifier. Put the following steps in your pipeline:
 
-- Call the ``AmesClassificationTransformer``
-- Call a `ColumnTransformer` that uses `sklearn.preprocessing.OneHotEncoder` on the categorical columns and `sklearn.preprocessing.StandardScalar` on the numeric columns.
-- Adds in a classifier on the end.
+- The ``AmesClassificationTransformer``
+- A `ColumnTransformer` that uses `sklearn.preprocessing.OneHotEncoder` on the categorical columns and `sklearn.preprocessing.StandardScalar` on the numeric columns.
+- A decision tree classifier.
 
 Make a function called `get_clf_pipeline` that returns the pipeline.
 
