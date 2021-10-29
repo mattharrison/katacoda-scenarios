@@ -10,7 +10,9 @@
             "title": "Task 1: Create Classifier",
             "text": "1_task.md",
             "verify": "1_verify.sh",
-            "hint": "1_hint.sh"
+            "hint": "1_hint.sh",
+            "courseData": "1_background.sh",
+            "code": "1_foreground.sh"
         }
         ],
         "intro": {
