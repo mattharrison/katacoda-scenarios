@@ -1,7 +1,7 @@
 {
     "type": "challenge@0.8",
-    "title": "Classification Challenge",
-    "description": "Machine learning classification challenge",
+    "title": "Regression Challenge",
+    "description": "Machine learning regression challenge",
     "difficulty": "Intermediate",
     "time": "25 minutes",
     "details": {
