@@ -13,5 +13,5 @@ fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
 if [ $seconds_sofar -ge 20 ]; then
-    echo "**Hint:** Normally, this hint would give help nudge you toward the solution. (As it is, I'm just going to tell you the answer, in case you're new to the command line. The simplest way to create the environment is to run the following:  apt install python3.8-venv;python3 -m venv env;env/bin/pip install pandas scikit-learn pytest"
+    echo "**Hint:** The Pipeline should have 3 steps. The AmesClassificationTransformer, a ColumnTransformer (that has both OneHotEncoder and StandardScalar), and the classifier"
 fi

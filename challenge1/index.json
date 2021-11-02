@@ -23,12 +23,14 @@
             {
             "title": "Task 3: Create Transformer",
             "text": "3_task.md",
-            "verify": "3_verify.sh"
+            "verify": "3_verify.sh",
+            "hint": "3_hint.sh"
         },
             {
             "title": "Task 4: Create Pipeline",
             "text": "4_task.md",
-            "verify": "4_verify.sh"
+            "verify": "4_verify.sh",
+            "hint": "4_hint.sh"
         }
         ],
         "intro": {

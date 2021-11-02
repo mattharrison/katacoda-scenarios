@@ -13,5 +13,5 @@ fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
 if [ $seconds_sofar -ge 20 ]; then
-    echo "**Hint:** Normally, this hint would give help nudge you toward the solution. (As it is, I'm just going to tell you the answer, in case you're new to the command line. The simplest way to create a new file is the command 'touch'. Try typing 'touch bananas.txt' and then hit enter.)"
+    echo "**Hint:** Use the pd.read_csv function to load the data. Use the .fillna method to replace missing values"
 fi

@@ -1,2 +1,3 @@
-You made it to the end! But the finish page is ignored for challenges, so no one will ever read this. Boo hoo hoo hoo.
+Great work! 
 
+You can apply this pattern of cleaning the data, making a pipeline, and sticking a model at the end to many machine learning problems!
